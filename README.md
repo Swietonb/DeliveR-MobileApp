@@ -4,14 +4,14 @@ Aplikacja DelivR jest przeznaczona do sterowania robotem mobilnym. Umożliwia wy
 
 ## **Zrzuty Ekranu Z Aplikacji**
 <p float="left">
-  <img src="https://github.com/Swietonb/DelivR-MobileAppFrontend/assets/115777585/81f5ec1f-6314-4fda-9a79-9b3c5ed49503" width="200" />
-  <img src="https://github.com/Swietonb/DelivR-MobileAppFrontend/assets/115777585/88535727-9fd2-436d-8b26-656479a8b73a" width="200" /> 
-  <img src="https://github.com/Swietonb/DelivR-MobileAppFrontend/assets/115777585/15a10e99-d484-4bc6-bf5b-b1382e2dd5b9" width="200" />
+  <img src="https://github.com/Swietonb/DeliveR-MobileApp/assets/115777585/20e4fedd-50fa-45f6-8072-8c5fc56e3fb8" width="200" />
+  <img src="https://github.com/Swietonb/DeliveR-MobileApp/assets/115777585/5b8297db-e495-4ca7-be20-49f1ee738b60" width="200" />
+  <img src="https://github.com/Swietonb/DeliveR-MobileApp/assets/115777585/4de11103-e211-4299-86d6-fb01a5a59f4f" width="200" />
 </p>
 <p float="left">
-  <img src="https://github.com/Swietonb/DelivR-MobileAppFrontend/assets/115777585/b32702c6-bb32-4c5e-8b1e-c7a3dd718983" width="200" />
-  <img src="https://github.com/Swietonb/DelivR-MobileAppFrontend/assets/115777585/c65b9035-5afc-419a-bd68-6a8d26a4a84d" width="200" />
-  <img src="https://github.com/Swietonb/DelivR-MobileAppFrontend/assets/115777585/630bd4b9-a8fa-43fd-9c38-3ad9a52b9c87" width="200" />
+  <img src="https://github.com/Swietonb/DeliveR-MobileApp/assets/115777585/1ad3f6a1-a13b-43bb-94f7-09239269747e" width="200" />
+  <img src="https://github.com/Swietonb/DeliveR-MobileApp/assets/115777585/01a6700a-ec2b-41ae-9862-e59e2000afba" width="200" />
+  <img src="https://github.com/Swietonb/DeliveR-MobileApp/assets/115777585/60d2b9ba-b92e-40ed-ba66-54555b385b62" width="200" />
 </p>
 
 
