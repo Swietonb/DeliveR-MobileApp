@@ -1,4 +1,4 @@
-# DelivR-MobileAppFrontend
+# DelivR-MobileApp
 ## Opis
 Aplikacja DelivR jest przeznaczona do sterowania robotem mobilnym. Umożliwia wybór strefy docelowej dla robota poprzez intuicyjny interfejs siatki stref, a także umożliwia śledzenie aktualnej lokalizacji robota. Aplikacja zawiera również sekcję ustawień, pozwalającą na dostosowanie rozmiaru siatki stref, co jest przydatne przy zmianie konfiguracji przestrzeni roboczej.
 
