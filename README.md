@@ -4,9 +4,9 @@ Aplikacja DelivR jest przeznaczona do sterowania robotem mobilnym. Umożliwia wy
 
 ## **Zrzuty Ekranu Z Aplikacji**
 <p float="left">
-  <img src="https://github.com/Swietonb/DeliveR-MobileApp/assets/115777585/20e4fedd-50fa-45f6-8072-8c5fc56e3fb8" width="200" />
-  <img src="https://github.com/Swietonb/DeliveR-MobileApp/assets/115777585/5b8297db-e495-4ca7-be20-49f1ee738b60" width="200" />
-  <img src="https://github.com/Swietonb/DeliveR-MobileApp/assets/115777585/4de11103-e211-4299-86d6-fb01a5a59f4f" width="200" />
+  <img src="https://github.com/Swietonb/DeliveR-MobileApp/assets/115777585/20e4fedd-50fa-45f6-8072-8c5fc56e3fb8" width="250" />
+  <img src="https://github.com/Swietonb/DeliveR-MobileApp/assets/115777585/5b8297db-e495-4ca7-be20-49f1ee738b60" width="250" />
+  <img src="https://github.com/Swietonb/DeliveR-MobileApp/assets/115777585/4de11103-e211-4299-86d6-fb01a5a59f4f" width="250" />
 </p>
 <p float="left">
   <img src="https://github.com/Swietonb/DeliveR-MobileApp/assets/115777585/1ad3f6a1-a13b-43bb-94f7-09239269747e" width="200" />
