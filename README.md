@@ -48,19 +48,15 @@ Upewnij się, że masz zainstalowane następujące narzędzia:
 ## **Budowanie Aplikacji**
 Aby zbudować aplikację do formatu .apk (dla Androida):  
 #### Wymagane Narzędzia ####
-1. EAS CLI: Zainstaluj Expo Application Services CLI globalnie
-   
+1. EAS CLI: Zainstaluj Expo Application Services CLI globalnie  
    `npm install -g eas-cli`
 2. Konto Expo: Musisz posiadać konto na platformie Expo.
 #### Kroki Budowania ####
-1. Logowanie do Expo: Zaloguj się do swojego konta Expo w terminalu:
-   
+1. Logowanie do Expo: Zaloguj się do swojego konta Expo w terminalu:  
    `eas login`
-2. Konfiguracja EAS: Upewnij się, że projekt jest skonfigurowany do budowania z EAS. Możesz to zrobić, uruchamiając:
-   
+2. Konfiguracja EAS: Upewnij się, że projekt jest skonfigurowany do budowania z EAS. Możesz to zrobić, uruchamiając:  
    `eas build:configure`
-3. Budowanie Aplikacji: Uruchom proces budowania aplikacji:
-   
+3. Budowanie Aplikacji: Uruchom proces budowania aplikacji:  
    `eas build -p android --profile preview`
 4. Po zakończeniu procesu budowania, plik .apk będzie dostępny do pobrania z twojego konta Expo w sekcji Builds.
 
@@ -75,4 +71,34 @@ Aby zbudować aplikację do formatu .apk (dla Androida):
 * SectionHeader.js: Komponent nagłówka sekcji, używany w różnych ekranach. Zawiera elementy nawigacyjne i tytułowe.
 * SplashScreen.js: Ekran powitalny aplikacji. Wyświetla logo i przycisk nawigacyjny do ekranu głównego.
 * ZoneContext.js: Kontekst Reacta do zarządzania wybraną strefą. Umożliwia przechowywanie i udostępnianie informacji o wybranej strefie w całej aplikacji.
-* GradientButton.js: Uniwersalny komponent przycisku z gradientowym tłem. Wykorzystywany do nawigacji i interakcji użytkownika.   
+* GradientButton.js: Uniwersalny komponent przycisku z gradientowym tłem. Wykorzystywany do nawigacji i interakcji użytkownika.
+  
+## **Uruchamianie serwera backendowego**
+### 1. Pobranie Kodu Źródłowego
+Najpierw umieść kod źródłowy serwera backendowego na maszynie wirtualnej lub innym urządzeniu ze skonfigurowaną domeną lub subdomeną
+### 2. Uzyskanie certyfikatów potrzebnych do połączenia https
+Aby umożliwić bezpieczne połączenie HTTPS dla serwera backendowego, konieczne jest uzyskanie odpowiednich certyfikatów SSL/TLS. Certyfikaty te potwierdzają tożsamość serwera i zapewniają szyfrowaną komunikację między klientem a serwerem.
+### 3. Instalacja Zależności
+Przejdź do katalogu z kodem źródłowym serwera backendowego i zainstaluj wszystkie wymagane zależności przy użyciu menedżera pakietów npm (Node Package Manager).  
+```
+cd Backend 
+npm install
+```
+### 4. Konfiguracja Pliku .env
+Stwórz plik .env z poufnymi danymi dostępowymi do bazy danych oraz ścieżkami do certyfikatów i umieść go w katalogu serwera backendowego. Upewnij się, że ten plik zawiera odpowiednie zmienne środowiskowe, na przykład:
+```
+DB_USER=twoja_nazwa_użytkownika
+DB_PASSWORD=twoje_hasło_do_bazy
+DB_SERVER=adres_bazy_danych
+DB_NAME=nazwa_bazy_danych
+
+PRIVATE_KEY_PATH=ścieżka/do/twojego/pliku/klucza/prywatnego/.pem
+CERTIFICATE_PATH=ścieżka/do/twojego/pliku/certyfikatu/fullchain.pem
+```
+### 5. Uruchomienie Serwera
+Teraz możesz uruchomić serwer backendowy, korzystając z komendy:  
+`node server.js`  
+Serwer będzie dostępny pod adresem 'https://adres-maszyny-wirtualnej/domeny'
+### 6. Ustawienie API serwera w aplikacji
+Otwórz plik api.js i zmień API_URL na adres z poprzedniego punktu np.  
+`const API_URL = 'https://adres-maszyny-wirtualnej/domeny';`
