@@ -37,7 +37,7 @@ Upewnij się, że masz zainstalowane następujące narzędzia:
 
 ## **Uruchamianie w Trybie Deweloperskim**
 1. Klonowanie Repozytorium: Sklonuj repozytorium Git do lokalnego środowiska:  
-   `git clone https://github.com/Swietonb/DelivR-MobileAppFrontend.git`
+   `git clone https://github.com/Swietonb/DelivR-MobileApp.git`
 2. Instalacja Zależności:
    W projekcie aplikacji, zależności projektu są zdefiniowane w pliku package.json
    Wykonaj polecenie `npm install` w katalogu głównym Twojego projektu, gdzie znajduje się plik package.json. To polecenie automatycznie pobierze i zainstaluje wszystkie zależności wymienione w package.json.
